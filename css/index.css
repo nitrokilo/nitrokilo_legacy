@@ -1,0 +1,159 @@
+*{
+	margin: 0px ;
+	padding: 0.01px; 
+	font-family:Inter;
+}
+
+header{
+	background-image :linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/index.jpg");
+	height: 150vh;
+	background-size: cover;
+	background-position: cover;
+}
+
+ul{
+	margin: 10px ;
+	padding: 10px;
+  	float: right; 
+	list-style-type: none;
+	overflow: visible;
+	position: fixed;
+	right: 0;
+}
+ul li {
+
+	display: inline-block;
+	box-sizing: content-box;
+  	
+}
+ul li a{
+    font-family: Century Gothic;
+	display: block;
+	text-decoration: none;
+	color: #fff ;
+	padding: 5px 20px;
+	border: .5px solid #fff;
+	transition: 0.6s ease;
+
+}
+ul li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img {
+	position: fixed;
+	float: left;
+	width: 170px;
+	height: auto;
+	left: 40px;
+	top: 0;
+	border: 10px solid #b87333;
+	background-color: #b87333;
+}
+.background  { 
+border: 20px inset #FFB48F ; 
+background-color: #F5F5DC; 
+margin: auto;
+top: 50em;
+height: 20em;
+width:65em;
+position: absolute;
+}
+
+.background p {font: 700 2.3rem/1.6 Didot; color: #564F6F; 
+		border: 1px hidden #fff; /* paragraph content control */
+		right: 60%;
+		margin: 50px 50px 100px 100px;
+		}
+.main{
+	max-width: 1200px;
+	margin: auto;
+
+}
+.title {
+	position: relative;
+	top: 25em;
+	border: 3px hidden green;
+      padding: 10px;
+	
+	margin: auto;
+	
+}
+.title h1{
+	color: #fff;
+	font-size: 70px;
+	text-align: center;
+
+}
+.title p {
+    margin: auto;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+}
+.title2 {
+	position: relative;
+    margin: auto;
+  width: 800px;
+  top: 29em;
+  border: 3px hidden green;
+  padding: 10px;
+	
+}
+.title2 p {
+    
+    color: #fff;
+    font-size: 30px;
+    
+}
+.body {
+	position: fixed;
+	top: 58%;
+	left: 52%;
+	transform: translate(-50%,-50%);
+}
+.body h1{
+	color: #fff;
+	font-size: 30px;
+}
+.button {
+	position: relative;
+	top: 3.7em;
+	
+	padding: 10px ;
+	text-align: center;
+	width: 500px;
+
+
+	margin:auto;
+	
+
+}
+.btn {
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: .6s ease;
+
+}
+.btn:hover {
+	background-color: #fff;
+	color: #000;
+
+}
+.footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+
+}
